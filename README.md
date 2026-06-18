@@ -1,10 +1,9 @@
 # reLoop (an Autonomous Agentic Research Loop for Biomedical Questions)
 
-An AI agent doing its own ML research, autonomously and overnight. It edits a single
+An AI agent doing its own ML research, autonomously. It edits a single
 training file, trains a model, checks whether the held-out objectives improved, keeps
-or discards the change, and repeats — so you wake up to a log of experiments and
-(hopefully) a better model. You don't edit the Python directly; you program the agent
-through `program.md`.
+or discards the change, and repeats, producing a log of experiments and an improved 
+model. You don't edit the Python directly; you program the agent through `program.md`.
 
 The experiment shipped here is **regulatory genomics**: predict whether a 500 bp human
 DNA sequence is an **enhancer** (a cis-regulatory element) vs a control region, from the
