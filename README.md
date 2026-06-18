@@ -8,8 +8,8 @@ model. You don't edit the Python directly; you program the agent through `progra
 The experiment shipped here is **regulatory genomics**: predict whether a 500 bp human
 DNA sequence is an **enhancer** (a cis-regulatory element) vs a control region, from the
 raw sequence — the public, de-identified Genomic Benchmarks `human_enhancers_cohn`
-dataset (Grešová et al. 2023; no PHI). The published CNN baseline is only **~0.695
-accuracy**, so there is real headroom for the agent to discover better architectures.
+dataset (Grešová et al. 2023; no PHI). With a published CNN baseline of **~0.695
+accuracy**, there is headroom for the agent to discover better architectures within this example task.
 The harness generalizes to other in-silico biomedical tasks — see
 [Use it for your own project](#use-it-for-your-own-project).
 
